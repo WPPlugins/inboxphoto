@@ -1,0 +1,252 @@
+# Copyright (C) 2017 inbox.photo helper
+# This file is distributed under the same license as the inbox.photo helper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: inbox.photo helper 1.7.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/inboxphoto\n"
+"POT-Creation-Date: 2017-04-11 11:51+0200\n"
+"PO-Revision-Date: 2017-04-11 11:51+0200\n"
+"Last-Translator: Carl Conrad <carl@koffeeware.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: actions.php:19 actions.php:38
+msgid "Order my product"
+msgstr "Commander mon produit"
+
+#: actions.php:55 widget.php:105
+msgid "Product not supported."
+msgstr "Produit non pris en charge."
+
+#: actions.php:70 widget.php:63
+msgid "Price:"
+msgstr "Prix :"
+
+#: actions.php:76
+msgid "Category snippet not supported."
+msgstr "Module Catégorie non pris en charge."
+
+#: settings.php:30
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+#: settings.php:34
+msgid "Your inbox.photo environment"
+msgstr "Votre environnement inbox.photo"
+
+#: settings.php:36
+msgid "You need to be connected to a valid inbox.photo account."
+msgstr "Vous devez être connecté à un compte inbox.photo valide."
+
+#: settings.php:39
+msgid "Documentation"
+msgstr "Documentation"
+
+#: settings.php:40
+msgid ""
+"This plug-in is designed to help you link your Wordpress web site to your "
+"inbox.photo based web shop by providing shortcodes for your ordering pages."
+msgstr ""
+"Cette extension est conçue pour vous aider à lier votre site Wordpress à "
+"votre boutique basée surinbox.photo grâce à la génération assistée de codes "
+"courts pour vos pages de commandes."
+
+#: settings.php:41
+msgid ""
+"Short code usage example for product category button: "
+"<code>[inboxphoto_button category=\"prints\"]</code>"
+msgstr ""
+"Exemple d’utilisation d'un code abrégé pour un bouton catégorie de "
+"produits : <code>[inboxphoto_button category=\"tirages\"]</code>"
+
+#: settings.php:42
+msgid ""
+"Short code usage example for product category button with custom text: "
+"<code>[inboxphoto_button category=\"prints\" text=\"text\"]</code>"
+msgstr ""
+"Exemple d’utilisation d'un code abrégé pour un bouton catégorie de produits "
+"avec texte personnalisé : <code>[inboxphoto_button category=\"tirages\" text="
+"\"texte\"]</code>"
+
+#: settings.php:43
+msgid ""
+"Short code usage example for product: <code>[inboxphoto_button category="
+"\"prints\" product=\"1234\"]</code>"
+msgstr ""
+"Exemple d’utilisation d'un code abrégé pour un bouton produits : "
+"<code>[inboxphoto_button category=\"tirages\" product=\"1234\"]</code>"
+
+#: settings.php:44
+msgid ""
+"Short code usage example for product snippet: <code>[inboxphoto_snippet "
+"category=\"calendars\" product=\"5678\"]</code>"
+msgstr ""
+"Exemple d’utilisation d'un code abrégé pour un paragraphe produits : "
+"<code>[inboxphoto_snippet category=\"calendriers\" product=\"5678\"]</code>"
+
+#: settings.php:45
+msgid ""
+"CSS example: <code>.inboxphotobutton { background-color: lightgrey; border-"
+"radius: 5px; font-size: 85%; font-weight: bold; color: black; }</code>"
+msgstr ""
+"Exemple CSS :<code>.inboxphotobutton { background-color: lightgrey; border-"
+"radius: 5px; font-size: 85%; font-weight: bold; color: black; }</code>"
+
+#: settings.php:46
+msgid ""
+"A product sidebar widget is also available. Visit the <a href=\"widgets.php"
+"\">widget section</a>."
+msgstr ""
+"Un widget produit de barre latérrale est également disponible. Visitez la <a "
+"href=\"widgets.php\">section widgets</a> ."
+
+#: settings.php:49
+msgid "Settings"
+msgstr "Paramètres"
+
+#: settings.php:59
+msgid "Your shop slug is missing or incorrect."
+msgstr "Le slug de votre boutique est manquant ou incorrect."
+
+#: settings.php:62
+msgid "Your inbox.photo slug (without .inbox.photo)"
+msgstr "Votre adresse inbox.photo (sans. inbox.photo)"
+
+#: settings.php:63
+msgid "check"
+msgstr "vérifier"
+
+#: settings.php:67
+msgid "Your inbox.photo API token"
+msgstr "Votre clé d'API inbox.photo"
+
+#: settings.php:71
+msgid "Your inbox.photo button default text"
+msgstr "Votre texte de bouton de inbox.photo par défaut"
+
+#: settings.php:75
+msgid "Your inbox.photo button CSS"
+msgstr "Votre CSS pour le bouton de inbox.photo"
+
+#: settings.php:79
+msgid "Your currency"
+msgstr "Votre devise"
+
+#: settings.php:99
+msgid "Currently on your shop:"
+msgstr "Actuellement sur votre boutique :"
+
+#: settings.php:99
+msgid "orders:"
+msgstr "commandes :"
+
+#: settings.php:99
+msgid "new orders"
+msgstr "nouvelles commandes"
+
+#: settings.php:99
+msgid "opened orders"
+msgstr "commandes ouvertes"
+
+#: settings.php:99
+msgid "downloaded orders"
+msgstr "commandes téléchargées"
+
+#: settings.php:103
+msgid "Connect to dashboard"
+msgstr "Se connecter au tableau de bord"
+
+#: settings.php:114
+msgid "Success. Your shop name is:"
+msgstr "Succès. Le nom de votre boutique est :"
+
+#: settings.php:124
+msgid "Error: the inbox.photo slug seems incorrect. Please fix it."
+msgstr "Erreur : le slug inbox.photo semble incorrect. Veuillez corriger."
+
+#: widget.php:14 widget.php:16
+msgid "inbox.photo widget"
+msgstr "widget inbox.photo"
+
+#: widget.php:40
+msgid "Prints"
+msgstr "Tirages"
+
+#: widget.php:77
+msgid "New title"
+msgstr "Nouveau titre"
+
+#: widget.php:89
+msgid "New product"
+msgstr "Nouveau produit"
+
+#: widget.php:95
+msgid "New text"
+msgstr "Nouveau texte"
+
+#: widget.php:114
+msgid "Current setting:"
+msgstr "Réglage actuel :"
+
+#: widget.php:114
+msgid "Category slug:"
+msgstr "Slug de la catégorie :"
+
+#: widget.php:114
+msgid "Product id:"
+msgstr "id du produit :"
+
+#: widget.php:116
+msgid "Title:"
+msgstr "Titre :"
+
+#: widget.php:121
+msgid "Change to category:"
+msgstr "Changer de catégorie :"
+
+#: widget.php:127
+msgid "Change to product:"
+msgstr "Changer de produit :"
+
+#: widget.php:129
+msgid "Select category first"
+msgstr "Sélectionner d'abord une catégorie"
+
+#: widget.php:133
+msgid "Button text:"
+msgstr "Texte du bouton :"
+
+#: widget.php:142
+msgid "Select a category"
+msgstr "Sélectionner une catégorie"
+
+#: widget.php:157
+msgid "Select a product"
+msgstr "Sélectionner un produit"
+
+#. Plugin Name of the plugin/theme
+msgid "inbox.photo helper"
+msgstr "Assistant inbox.photo"
+
+#. Description of the plugin/theme
+msgid "Streamline integration of inbox.photo."
+msgstr "Simplifier l'intégration d'inbox.photo."
+
+#. Author of the plugin/theme
+msgid "inbox.photo by Koffeeware"
+msgstr "inbox.photo par Koffeeware"
+
+#. Author URI of the plugin/theme
+msgid "https://inbox.photo"
+msgstr "https://inbox.photo"
+
+#~ msgid "If currency is incorrect, please save again."
+#~ msgstr "Si votre monnaie n'est pas correcte, merci de sauver à nouveau."
+
+#~ msgid "Category widget not supported."
+#~ msgstr "Widget Catégorie non pris en charge."
